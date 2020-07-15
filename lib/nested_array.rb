@@ -39,7 +39,7 @@ def matrix_lookup(matrix = sorted_matrix, row = 0, column = 2)
   # Return the matrix's content at that row and and column
 end
 
-def matrix_update(matrix, row, column, new_value)
+def matrix_update(matrix = sorted_matrix, row = 0, column = 2, new_value = "Cat Brains")
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix

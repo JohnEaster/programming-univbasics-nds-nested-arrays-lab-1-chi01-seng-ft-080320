@@ -41,6 +41,7 @@ end
 
 def matrix_update(matrix = sorted_matrix, row = 0, column = 2, new_value = "Cat Brains")
   matrix[row][column] = new_value
+  matrix
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
